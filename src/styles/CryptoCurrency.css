@@ -1,0 +1,75 @@
+.containerCrypto{
+    display: flex;
+    justify-content: center;
+}
+
+.rowCrypto{
+    display: flex;
+    justify-items: start;
+    align-items: center;
+    height: 80px;
+    border-bottom: 1px solid #d7d7d7;
+    width: 1000px;
+}
+
+.crypto{
+    display: flex;
+    align-items: center;
+    padding-right: 24px;
+    min-width: 300px;
+}
+
+.crypto h1{
+    font-size: 16px;
+    width: 150px;
+}
+
+.crypto img{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.cryptoSymbol{
+    text-transform: uppercase;
+}
+
+.dataCrypto{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cryptoPrice{
+    width: 110px;
+    justify-items: flex-start;
+}
+
+.gap{
+    padding: 0 20px;
+}
+
+.cryptoVolume{
+    width: 200px;
+    justify-items: flex-start;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.marketcapCrypto{
+    width: 240px;
+}
+
+.percentCrypto{
+    width: 80px;
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color: forestgreen;
+}
